@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hilos_Persistencia_Sonido</string>
+
+
+    <string name="dificultad">Por favir escoge nivel:</string>
+    <string name="facil">Fácil</string>
+    <string name="medio">Normal</string>
+    <string name="dificil">Difícil</string>
+
+</resources>
