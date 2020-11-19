@@ -2,24 +2,21 @@ package com.example.hilos_persistencia_sonido;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class MainActivity extends AppCompatActivity {
+public class AyudaActividad extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_ayuda_actividad);
     }
 
-    public void ayuda(View view){
 
-        Intent intencion=new Intent(this, AyudaActividad.class);
+    public void volver(View vista){
 
-        startActivity(intencion);
-
+        onBackPressed();
 
     }
 }

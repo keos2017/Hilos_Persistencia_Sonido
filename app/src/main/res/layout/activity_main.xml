@@ -34,4 +34,12 @@
         android:text="@string/dificil"
         style="@style/boton_Dificultad"/>
 
+
+    <Button
+
+        style="@style/boton_Ayuda"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:onClick="ayuda" />
+
 </RelativeLayout>
